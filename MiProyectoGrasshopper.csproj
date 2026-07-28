@@ -1,0 +1,31 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net7.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="RhinoCommon" Version="8.32.26160.13001" />
+    <PackageReference Include="Grasshopper" Version="8.30.26103.11001" />
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="RevitAPI">
+      <HintPath>C:\Program Files\Autodesk\Revit 2025\RevitAPI.dll</HintPath>
+      <Private>false</Private>
+    </Reference>
+
+    <Reference Include="RevitAPIUI">
+      <HintPath>C:\Program Files\Autodesk\Revit 2025\RevitAPIUI.dll</HintPath>
+      <Private>false</Private>
+    </Reference>
+
+    <Reference Include="RhinoInside.Revit">
+      <HintPath>C:\ProgramData\Autodesk\Revit\Addins\2025\RhinoInside.Revit\R8\RhinoInside.Revit.dll</HintPath>
+      
+      <Private>false</Private>
+    </Reference>
+  </ItemGroup>
+
+</Project>

@@ -1,0 +1,29 @@
+{
+  "version": 2,
+  "dgSpecHash": "prFfGQ6q+ms=",
+  "success": true,
+  "projectFilePath": "C:\\Users\\axel.leroux_modelica\\Documents\\Trabajos\\VSCode-Codes\\MiProyectoGrasshopper\\MiProyectoGrasshopper.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\axel.leroux_modelica\\.nuget\\packages\\grasshopper\\8.30.26103.11001\\grasshopper.8.30.26103.11001.nupkg.sha512",
+    "C:\\Users\\axel.leroux_modelica\\.nuget\\packages\\microsoft.win32.systemevents\\7.0.0\\microsoft.win32.systemevents.7.0.0.nupkg.sha512",
+    "C:\\Users\\axel.leroux_modelica\\.nuget\\packages\\rhinocommon\\8.32.26160.13001\\rhinocommon.8.32.26160.13001.nupkg.sha512",
+    "C:\\Users\\axel.leroux_modelica\\.nuget\\packages\\system.drawing.common\\7.0.0\\system.drawing.common.7.0.0.nupkg.sha512",
+    "C:\\Users\\axel.leroux_modelica\\.nuget\\packages\\microsoft.netcore.app.ref\\7.0.20\\microsoft.netcore.app.ref.7.0.20.nupkg.sha512",
+    "C:\\Users\\axel.leroux_modelica\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\7.0.20\\microsoft.windowsdesktop.app.ref.7.0.20.nupkg.sha512",
+    "C:\\Users\\axel.leroux_modelica\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\7.0.20\\microsoft.aspnetcore.app.ref.7.0.20.nupkg.sha512"
+  ],
+  "logs": [
+    {
+      "code": "NU1608",
+      "level": "Warning",
+      "message": "Detected package version outside of dependency constraint: Grasshopper 8.30.26103.11001 requires RhinoCommon (= 8.30.26103.11001) but version RhinoCommon 8.32.26160.13001 was resolved.",
+      "projectPath": "C:\\Users\\axel.leroux_modelica\\Documents\\Trabajos\\VSCode-Codes\\MiProyectoGrasshopper\\MiProyectoGrasshopper.csproj",
+      "warningLevel": 1,
+      "filePath": "C:\\Users\\axel.leroux_modelica\\Documents\\Trabajos\\VSCode-Codes\\MiProyectoGrasshopper\\MiProyectoGrasshopper.csproj",
+      "libraryId": "RhinoCommon",
+      "targetGraphs": [
+        "net7.0"
+      ]
+    }
+  ]
+}
